@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 3rem;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.home{
+    display: flex;
+    background-color: #d3d3d3;
+    margin: 2rem;
+    padding: 3rem;
+}
+.quadroQuestao{
+    background-color: white;
+}
+
+.questao{
+    display: flex;
+    flex-direction: column;
+    background-attachment: #d3d3d350;
+    margin: 1rem;
+    padding: 2rem;
+    justify-content:flex-start;
+    text-align: justify;
+    align-items: flex-start;
+}
+.questao ul{
+    list-style: none;
+}
+
+.resposta{
+    background-color: #2dec37;
+    padding: 2rem;
+}
